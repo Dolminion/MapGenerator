@@ -1,0 +1,45 @@
+Classes:
+Map Generator
+	process click
+		ui check bounds
+Audio Manager
+UI Manager
+	Main Menu
+		has Buttons
+	Map Menu
+		has Buttons
+
+
+
+BiomeType - Parameters
+Land
+	Attributes:
+		BiomeType (given by Voronoi)
+		LandType (given by cellular automata)
+		
+	Methods:
+		
+
+
+
+
+
+Algorithm order:
+Delaunay Triangulation
+Voronoi Diagram (fortune's algorithm)
+
+Cellular Automaton
+	(Then agent based rivers?)
+Marching Squares for each land type
+
+
+Possible Challenge:
+Interactable after completion
+
+
+User Experience:
+	Plain Grid Visible
+	1. Select Biome
+	2. Click on Grid
+	3. Repeat 1 & 2 however many times
+	4. Starting from first biome, populate grid
